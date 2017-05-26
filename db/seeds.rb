@@ -3,6 +3,7 @@ password = 'pass123'
   User.create(
     email: "user-#{i}@example.com",
     password: password,
-    password_confirmation: password
+    password_confirmation: password, 
+    screename: "screen-#{i}"
   )
 end
